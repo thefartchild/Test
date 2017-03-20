@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="wx.userManage.dao.userManageDao">
+	<cache/>
+	
+	<insert id="save" parameterType="wx.userManage.entity.userManage">
+		<![CDATA[
+			insert into user ( userID, userName, userTel)
+			values('123','123','123')
+		]]>
+	</insert>
+	
+</mapper>
